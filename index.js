@@ -1,10 +1,10 @@
 // Variáveis utilizadas nomeHeroi, xp e nivel
 let nomeHeroi = "Dead Cells"
-// Altere a quantidade de experiência (XP) conforme necessário
+// Alterar a quantidade de experiência (XP) conforme necessário
 let xp = 15001  
 let nivel
 
-// Estrutura de decisão para classificar o nível do herói com base no XP
+// classificar o nível do herói com base no XP
 if (xp < 1000) {
     nivel = "Ferro"
 } else if (xp >= 1001 == xp <= 2000) {
