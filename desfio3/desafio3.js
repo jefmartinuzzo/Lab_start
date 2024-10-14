@@ -11,7 +11,7 @@ class Heroi {
     atacar() {
         let ataque;
         
-        // Estrutura de decisão para definir o ataque com base no tipo do herói
+        // Defina o ataque com base no tipo do herói
         switch (this.tipo.toLowerCase()) {
             case "mago":
                 ataque = "usou magia";
